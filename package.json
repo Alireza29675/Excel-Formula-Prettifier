@@ -1,0 +1,12 @@
+{
+  "name": "Excel-Formula-Prettifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Alireza29675/Excel-Formula-Prettifier.git",
+  "author": "Alireza Sheikholmolouki <alireza.sheikholmolouki@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "start:watch": "ts-node ./src/index.ts -w"
+  }
+}
