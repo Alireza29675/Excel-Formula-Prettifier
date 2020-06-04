@@ -23,8 +23,8 @@
     let tabs = 0;
     for (let i = 0; i < formulaLines.length; i++) {
       const line = formulaLines[i];
-      formulaLines[i] = generateTabs(tabs) + line;
       tabs += line.indexOf(")") >= 0 ? -1 : 1;
+      formulaLines[i] = generateTabs(tabs - 1) + line;
     }
 
     stylizedFormula = formulaLines.join("\n");
